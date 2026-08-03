@@ -2,23 +2,22 @@
 
 Aplicação web desenvolvida para consulta de endereços em tempo real através do CEP, consumindo a API pública do ViaCEP.
 
+🌐 **Acesse o projeto online:** [Acesse Localmente](https://saulorubiale.github.io/buscador-de-CEP/)
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 - **HTML5:** Estruturação semântica.
-- **CSS3:** Estilização e responsividade.
-- **JavaScript (ES6+):** Lógica, manipulação do DOM e requisições assíncronas com `fetch` / `async/await`.
-- **API ViaCEP:** Web service gratuito para consulta de CEP.
+- **CSS3:** Estilização e layout com Flexbox.
+- **JavaScript (ES6+):** Manipulação do DOM, funções assíncronas com `async/await` e consumo da API ViaCEP com `fetch`.
+
+---
 
 ## ⚙️ Funcionalidades
 
-- Busca de endereços por CEP.
+- Consulta de endereço em tempo real por CEP.
 - Higienização automática do input (remoção de caracteres não numéricos).
-- Tratamento para CEPs inválidos ou inexistentes.
-- Feedback visual de carregamento durante as requisições.
+- Estado de carregamento do botão (*Loading*) enquanto busca os dados.
+- Tratamento de CEPs inexistentes ou com formato inválido.
 - Tratamento de exceções e erros de conexão.
-
-## 🛠️ Como rodar o projeto localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://saulorubiale.github.io/buscador-de-CEP/]
