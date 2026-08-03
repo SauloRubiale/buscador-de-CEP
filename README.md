@@ -2,7 +2,7 @@
 
 Aplicação web desenvolvida para consulta de endereços em tempo real através do CEP, consumindo a API pública do ViaCEP.
 
-🌐 **Acesse o projeto online:** [Acesse Localmente](https://saulorubiale.github.io/buscador-de-CEP/)
+🌐 **Acesse o projeto online:** [Acesse Aqui](https://saulorubiale.github.io/buscador-de-CEP/)
 
 ---
 
