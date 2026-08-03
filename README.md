@@ -21,4 +21,4 @@ Aplicação web desenvolvida para consulta de endereços em tempo real através 
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/SauloRubiale/buscador-de-CEP.git](https://github.com/SauloRubiale/buscador-de-CEP.git)
+   git clone [https://saulorubiale.github.io/buscador-de-CEP/]
