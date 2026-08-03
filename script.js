@@ -11,7 +11,6 @@ async function BuscarCep(cep) {
 }
 
 cepButton.addEventListener("click", async () => {
-  // Remove hífens, pontos e espaços
   const cep = cepInput.value.replace(/\D/g, "");
 
   if (cep.length !== 8) {
@@ -22,7 +21,6 @@ cepButton.addEventListener("click", async () => {
     return;
   }
 
-  // Estado de carregando
   cepButton.disabled = true;
   resultadoDiv.innerHTML = "<p>Buscando CEP...</p>";
 
@@ -43,11 +41,9 @@ cepButton.addEventListener("click", async () => {
     resultadoDiv.innerHTML =
       "<p>Erro ao buscar o CEP. Verifique sua conexão.</p>";
   } finally {
-    // Limpa o input e coloca o foco nele novamente
     cepInput.value = "";
     cepInput.focus();
 
-    // Reativa o botão
     cepButton.disabled = false;
   }
 });
